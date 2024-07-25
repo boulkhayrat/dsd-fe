@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.grid-column-scrollable {
+  overflow-y: auto;
+  max-height: 300px; /* Adjust the height as needed */
+}
+
+.panel-heading.active {
+  background-color: #eee;
+}
+
+.collapse.show {
+  display: block;
+}
+
+
+.p-inputgroup {
+
+  width: 20% !important;
+  margin-bottom: 0.5vw;
+  display: inline-flex
+}
+
+.new-order-button {
+  margin-bottom: 0.5vw;
+}
+
+
+.container-ui {
+  width: 80vw !important;
+  margin-top : 7em;
+}
+
+.container-ui-userPage {
+  width: 60vw !important;
+  margin-top : 7em;
+}
+/* OrderTable.css */
+.search-create-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+.search-input .p-inputtext {
+  width: 300px;
+}
+
+.create-button {
+  margin-left: 1rem;
+}
+
+.green-background {
+  background-color: green !important;
+  color: white; /* To make sure text is readable */
+}
+
+.hover-effect:hover {
+  background-color: lightgrey;
+}
